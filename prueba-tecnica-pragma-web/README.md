@@ -1,69 +1,95 @@
-# React + TypeScript + Vite
+# Pragma - Sistema de Gestión de Usuarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema web desarrollado con React + TypeScript + Vite para la gestión de usuarios con operaciones CRUD completas.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React 18 + TypeScript + Vite
+- **UI Framework**: Material-UI (MUI) con DataGrid
+- **Estado**: Hooks de React para manejo de estado
+- **HTTP Client**: Axios para comunicación con API
+- **Modales**: Componentes para Crear, Editar y Eliminar usuarios
+- **Validación**: Validación de formularios en tiempo real
+- **Responsive**: Diseño adaptable a diferentes dispositivos
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 18** - Biblioteca de interfaz de usuario
+- **TypeScript** - Superset tipado de JavaScript
+- **Vite** - Build tool y dev server ultrarrápido
+- **Material-UI (MUI)** - Componentes de interfaz de usuario
+- **Axios** - Cliente HTTP para llamadas a la API
+- **ESLint** - Linter para mantener calidad del código
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📋 Prerequisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Node.js** v18 o superior
+- **npm** v8 o superior
+- **Docker** (opcional, para contenedores)
+- **API Backend** ejecutándose en `http://localhost:8080`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Instalación y Ejecución
+
+###  Desarrollo con npm (Recomendado)
+
+```bash
+# 1. Clonar el repositorio
+git clone <repository-url>
+cd prueba-tecnica-pragma-web
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Iniciar servidor de desarrollo
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+La aplicación estará disponible en: `http://localhost:5173`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Opción 2: Con Docker
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# 1. Construir la imagen
+docker build -t pragma-frontend .
+
+# 2. Ejecutar el contenedor
+docker run -p 3000:3000 pragma-frontend
+```
+
+La aplicación estará disponible en: `http://localhost:3000`
+
+## 📝 Scripts Disponibles
+
+```bash
+# Desarrollo
+npm run dev          # Inicia servidor de desarrollo en puerto 5173
+
+# Construcción
+npm run build        # Construye la aplicación para producción
+npm run preview      # Previsualiza la build de producción
+
+# Calidad de código
+npm run lint         # Ejecuta ESLint para revisar el código
+```
+
+## 🏗️ Estructura del Proyecto
+
+```
+src/
+├── components/          # Componentes reutilizables
+│   ├── ModalCreate.tsx  # Modal para crear usuarios
+│   ├── ModalEdit.tsx    # Modal para editar usuarios
+│   └── ModalDelete.tsx  # Modal para eliminar usuarios
+├── hooks/               # Custom hooks
+│   └── useUsers.ts      # Hook para manejo de usuarios
+├── interfaces/          # Definiciones de tipos TypeScript
+│   ├── index.ts         # Exportaciones de interfaces
+│   └── IUsers.ts        # Interface de usuario
+├── pages/               # Páginas de la aplicación
+│   └── home.tsx         # Página principal con DataGrid
+├── services/            # Servicios para APIs
+│   ├── axiosUsers.ts    # Servicio para operaciones de usuarios
+│   ├── HttpService.ts   # Configuración base de HTTP
+│   └── UserService.ts   # Servicio específico de usuarios
+└── assets/              # Recursos estáticos
 ```

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\projects\\pragma\\pragma-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|solutionrelative:pragma-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\pragma-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|solutionrelative:pragma-api\\pragma-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\.readme||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|solutionrelative:pragma-api\\.readme||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "pragma-api.http",
-              "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\pragma-api.http",
-              "RelativeDocumentMoniker": "pragma-api\\pragma-api.http",
-              "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\pragma-api.http",
-              "RelativeToolTip": "pragma-api\\pragma-api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-17T05:09:43.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Program.cs",
-              "RelativeDocumentMoniker": "pragma-api\\Program.cs",
-              "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Program.cs",
-              "RelativeToolTip": "pragma-api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T05:09:33.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Dockerfile",
               "RelativeDocumentMoniker": "pragma-api\\Dockerfile",
               "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Dockerfile",
               "RelativeToolTip": "pragma-api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-17T05:03:00.787Z",
+              "WhenOpened": "2025-07-17T05:30:10.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".README",
+              "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\.README",
+              "RelativeDocumentMoniker": "pragma-api\\.README",
+              "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\.README",
+              "RelativeToolTip": "pragma-api\\.README",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-17T05:21:42.473Z",
               "EditorCaption": ""
             }
           ]

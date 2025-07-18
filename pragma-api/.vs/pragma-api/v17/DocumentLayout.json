@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\projects\\pragma\\pragma-api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\.readme||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|solutionrelative:pragma-api\\.readme||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|c:\\projects\\pragma\\pragma-api\\pragma-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6D2862C4-DA43-4DCD-80AF-48426D915D9D}|pragma-api\\pragma-api.csproj|solutionrelative:pragma-api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Dockerfile",
-              "RelativeDocumentMoniker": "pragma-api\\Dockerfile",
-              "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\Dockerfile",
-              "RelativeToolTip": "pragma-api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-17T05:30:10.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".README",
-              "DocumentMoniker": "C:\\projects\\pragma\\pragma-api\\pragma-api\\.README",
-              "RelativeDocumentMoniker": "pragma-api\\.README",
-              "ToolTip": "C:\\projects\\pragma\\pragma-api\\pragma-api\\.README",
-              "RelativeToolTip": "pragma-api\\.README",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-17T05:21:42.473Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
